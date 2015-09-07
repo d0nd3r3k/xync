@@ -26,6 +26,7 @@ process.argv.forEach(function (val, index, array) {
 				break;
 			case "-h":
 				console.log("usage: %s -l local_dir -r remote_dir -s user@host",process.argv[1].split('/').pop());	
+				break;
 		}
 });
 
