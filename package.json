@@ -1,0 +1,25 @@
+{
+  "name": "xynk",
+  "version": "1.0.0",
+  "description": "Personal cloud sync with rsync and Node.js fs\"",
+  "main": "daemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonaldDerek/xync.git"
+  },
+  "keywords": [
+    "Dropbox",
+    "DropDropbox",
+    "fs",
+    "rsync"
+  ],
+  "author": "Donald Derek Haddad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DonaldDerek/xync/issues"
+  },
+  "homepage": "https://github.com/DonaldDerek/xync#readme"
+}
