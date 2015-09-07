@@ -10,10 +10,7 @@ var args = {
 		ssh: "user@host"
 		}
 
-var options = [];
-
 process.argv.forEach(function (val, index, array) {
-		if(val.split('-').length === 2) options.push(val);		
 		switch (val){
 			case "-p":
 				args.port = array[index+1];
@@ -45,5 +42,3 @@ var rsync = function(cmd){
 		console.log(stdout);
 	});
 }
-
-
